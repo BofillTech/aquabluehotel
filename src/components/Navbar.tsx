@@ -6,7 +6,7 @@ import logo from "@/assets/logo.png";
 const navLinks = [
   { label: "Home", path: "/" },
   { label: "Rooms", path: "/rooms" },
-  { label: "Group Bookings", path: "/group-bookings" },
+  { label: "Room Blocks", path: "/group-bookings" },
   { label: "Events", path: "/events" },
   { label: "Amenities", path: "/amenities" },
   { label: "Discover Narragansett", path: "/discover" },

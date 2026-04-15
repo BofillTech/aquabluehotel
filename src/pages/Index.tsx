@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import SectionHeading from "@/components/SectionHeading";
@@ -12,7 +13,11 @@ const rooms = [
   { name: "The Wave", desc: "King Room", img: "https://aquabluehotels.com/wp-content/uploads/IMG_3954-Edit-Edit-479x378.jpg" },
 ];
 
-const Index = () => (
+const Index = () => {
+  const [checkIn, setCheckIn] = useState("");
+  const [checkOut, setCheckOut] = useState("");
+
+  return (
   <Layout>
     {/* Hero */}
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
@@ -183,7 +188,41 @@ const Index = () => (
         </motion.div>
       </div>
     </section>
+
+    {/* Bottom Booking Bar */}
+    <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40">
+      <div className="bg-background/95 backdrop-blur-md shadow-lg rounded-full px-8 py-3 flex items-center gap-4">
+        <div className="flex items-center gap-2">
+          <label className="text-xs font-body font-semibold text-muted-foreground uppercase tracking-wide">Check-in</label>
+          <input
+            type="date"
+            value={checkIn}
+            onChange={(e) => setCheckIn(e.target.value)}
+            className="bg-transparent border-b border-border text-sm font-body text-foreground px-2 py-1 focus:outline-none focus:border-primary"
+          />
+        </div>
+        <div className="w-px h-8 bg-border" />
+        <div className="flex items-center gap-2">
+          <label className="text-xs font-body font-semibold text-muted-foreground uppercase tracking-wide">Check-out</label>
+          <input
+            type="date"
+            value={checkOut}
+            onChange={(e) => setCheckOut(e.target.value)}
+            className="bg-transparent border-b border-border text-sm font-body text-foreground px-2 py-1 focus:outline-none focus:border-primary"
+          />
+        </div>
+        <a
+          href="https://aquabluehotels.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-primary text-primary-foreground px-6 py-2.5 text-sm font-body font-semibold tracking-wide rounded-full hover:bg-aegean-light transition-colors ml-2"
+        >
+          Book Now
+        </a>
+      </div>
+    </div>
   </Layout>
-);
+  );
+};
 
 export default Index;

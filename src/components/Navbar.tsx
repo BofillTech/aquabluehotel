@@ -48,9 +48,7 @@ const Navbar = () => {
               className={`text-sm font-body font-medium tracking-wide transition-colors hover:text-primary ${
                 location.pathname === link.path
                   ? "text-primary"
-                  : scrolled
-                  ? "text-foreground"
-                  : "text-primary-foreground"
+                  : "text-foreground"
               }`}
             >
               {link.label}
@@ -61,9 +59,7 @@ const Navbar = () => {
         <div className="hidden lg:flex items-center gap-4">
           <a
             href="tel:+14013639800"
-            className={`text-sm font-body flex items-center gap-1.5 transition-colors ${
-              scrolled ? "text-foreground" : "text-primary-foreground"
-            }`}
+            className="text-sm font-body flex items-center gap-1.5 transition-colors text-foreground"
           >
             <Phone className="w-3.5 h-3.5" />
             (401) 363-9800
@@ -81,7 +77,7 @@ const Navbar = () => {
         {/* Mobile hamburger */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className={`lg:hidden p-2 ${scrolled ? "text-foreground" : "text-primary-foreground"}`}
+          className="lg:hidden p-2 text-foreground"
         >
           {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
         </button>

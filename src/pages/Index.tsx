@@ -13,7 +13,11 @@ const rooms = [
   { name: "The Wave", desc: "King Room", img: "https://aquabluehotels.com/wp-content/uploads/IMG_3954-Edit-Edit-479x378.jpg" },
 ];
 
-const Index = () => (
+const Index = () => {
+  const [checkIn, setCheckIn] = useState("");
+  const [checkOut, setCheckOut] = useState("");
+
+  return (
   <Layout>
     {/* Hero */}
     <section className="relative h-screen flex items-center justify-center overflow-hidden">

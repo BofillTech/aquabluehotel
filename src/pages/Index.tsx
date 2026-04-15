@@ -191,9 +191,9 @@ const Index = () => {
 
     {/* Bottom Booking Bar */}
     <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40">
-      <div className="bg-background/95 backdrop-blur-md shadow-lg rounded-full px-8 py-3 flex items-center gap-4">
+      <div className="bg-background/95 backdrop-blur-md shadow-lg rounded-full px-8 py-3 flex items-center gap-4 whitespace-nowrap">
         <div className="flex items-center gap-2">
-          <label className="text-xs font-body font-semibold text-muted-foreground uppercase tracking-wide">Check-in</label>
+          <label className="text-xs font-body font-semibold text-muted-foreground uppercase tracking-wide whitespace-nowrap">Check-in</label>
           <input
             type="date"
             value={checkIn}

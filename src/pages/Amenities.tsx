@@ -1,17 +1,14 @@
 import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
 import SectionHeading from "@/components/SectionHeading";
-import { Waves, Wifi, Coffee, Clock, ShoppingBag, Armchair, Building2, Umbrella, MapPin } from "lucide-react";
+import { Waves, Wifi, Coffee, Clock, Armchair, MapPin } from "lucide-react";
 
 const amenities = [
-  { icon: Waves, name: "Pool", desc: "Outdoor pool steps from the beach" },
-  { icon: Umbrella, name: "Hot Tub", desc: "Currently under renovation" },
+  { icon: Waves, name: "Pool", desc: "Currently closed for maintenance" },
   { icon: Wifi, name: "Free Wi-Fi", desc: "Complimentary throughout the hotel" },
   { icon: Clock, name: "24hr Front Desk", desc: "Always available to assist" },
   { icon: Coffee, name: "Hot Coffee", desc: "Complimentary every morning" },
-  { icon: Building2, name: "Business Center", desc: "For work and printing needs" },
   { icon: Armchair, name: "Patio Furniture", desc: "Relax outdoors in comfort" },
-  { icon: ShoppingBag, name: "Convenience Store", desc: "On-site essentials" },
   { icon: MapPin, name: "Closest to Beach", desc: "Steps from Narragansett Beach" },
 ];
 
@@ -47,7 +44,7 @@ const Amenities = () => (
       </div>
     </section>
 
-    {/* Restaurant */}
+    {/* Restaurant - Coming Soon */}
     <section className="section-padding bg-secondary">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="aspect-[4/3] rounded-lg overflow-hidden shadow-[var(--shadow-elevated)]">
@@ -57,14 +54,12 @@ const Amenities = () => (
           <p className="text-sm font-body font-semibold tracking-[0.2em] uppercase text-accent mb-2">Dining</p>
           <h2 className="text-3xl md:text-4xl font-display text-foreground mb-4">Our Restaurant & Bar</h2>
           <div className="gold-divider !mx-0 !my-4" />
-          <p className="font-body text-muted-foreground leading-relaxed mb-6">
-            Enjoy a relaxed dining atmosphere with a variety of dishes, continental and American breakfast, and an à la carte menu.
-          </p>
-          <div className="flex flex-wrap gap-4 text-sm font-body text-foreground">
-            <span className="px-4 py-2 bg-background rounded-lg">42 Tables</span>
-            <span className="px-4 py-2 bg-background rounded-lg">Opens 8 AM</span>
-            <span className="px-4 py-2 bg-background rounded-lg">Breakfast Included</span>
+          <div className="inline-block px-5 py-2 bg-accent/20 border border-accent/40 rounded-full mb-6">
+            <span className="text-sm font-body font-semibold text-accent tracking-wide uppercase">Coming Soon</span>
           </div>
+          <p className="font-body text-muted-foreground leading-relaxed mb-6">
+            We're preparing to bring a new dining experience to Aqua Blue Hotel. Stay tuned for updates on our restaurant and bar, featuring a variety of dishes, breakfast options, and an à la carte menu with a relaxed coastal atmosphere.
+          </p>
         </motion.div>
       </div>
     </section>

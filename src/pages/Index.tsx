@@ -43,7 +43,7 @@ const Index = () => {
           Aqua Blue Hotel
         </h1>
         <p className="text-lg md:text-xl font-body text-primary-foreground/80 max-w-xl mx-auto mb-10">
-          Relaxed coastal comfort, thoughtfully designed
+          Celebrate Life Every Moment
         </p>
         <a
           href="https://aquabluehotels.com/"
@@ -60,8 +60,8 @@ const Index = () => {
     <section className="section-padding">
       <SectionHeading
         subtitle="Accommodations"
-        title="The Rooms with a Soul"
-        description="Each guest room is designed to offer a comfortable and uncomplicated coastal stay in the heart of Narragansett."
+        title="Stay Your Way at Aqua Blue"
+        description="Simple, comfortable accommodations just steps from Narragansett Beach—designed to give you a place to recharge, unwind, and celebrate life every moment on the Rhode Island coast."
       />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
         {rooms.map((room, i) => (
@@ -131,7 +131,7 @@ const Index = () => {
         title="Everything You Need"
       />
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-5xl mx-auto text-center">
-        {["Pool", "Free Wi-Fi", "Hot Tub", "24hr Front Desk", "Complimentary Coffee", "Business Center", "Patio Furniture", "Convenience Store", "Closest to Beach"].map((a, i) => (
+        {["Indoor Pool (Under Construction)", "Free Wi-Fi", "24hr Front Desk", "Hot Coffee", "2nd Floor Deck", "Steps from Beach"].map((a, i) => (
           <motion.div
             key={a}
             initial={{ opacity: 0, y: 16 }}

@@ -5,25 +5,25 @@ import SectionHeading from "@/components/SectionHeading";
 const beaches = [
   {
     name: "Narragansett Town Beach",
-    desc: "Located directly across from Aqua Blue Hotel. Known for its surf culture, scenic seawall, and expansive shoreline.",
+    desc: "Known as the \"crown jewel,\" this popular spot offers soft sand, consistent surfing, and a mile-long walking space.",
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Narragansett_Beach_RI_2023.jpg/1280px-Narragansett_Beach_RI_2023.jpg",
   },
   {
-    name: "Scarborough State Beach",
-    desc: "Wide sandy stretches and beautiful ocean views. A favorite for surfers and sunset watchers. ~10 minutes away.",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Scarborough_State_Beach_North%2C_Narragansett%2C_RI.jpg/1280px-Scarborough_State_Beach_North%2C_Narragansett%2C_RI.jpg",
+    name: "Roger Wheeler & Salty Brine",
+    desc: "These state beaches offer calmer, protected waters ideal for families with young children.",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Roger_Wheeler_State_Beach_%2853844731671%29.jpg/1280px-Roger_Wheeler_State_Beach_%2853844731671%29.jpg",
   },
   {
-    name: "Roger Wheeler State Beach",
-    desc: "Near Point Judith Harbor with calmer waters and a family-friendly atmosphere.",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Roger_Wheeler_State_Beach_%2853844731671%29.jpg/1280px-Roger_Wheeler_State_Beach_%2853844731671%29.jpg",
+    name: "Scarborough State Beach",
+    desc: "Known for its large size, scenic boardwalk, and recent pavilion renovations. A favorite for surfers and sunset watchers.",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Scarborough_State_Beach_North%2C_Narragansett%2C_RI.jpg/1280px-Scarborough_State_Beach_North%2C_Narragansett%2C_RI.jpg",
   },
 ];
 
 const adventures = [
-  { name: "Narrow River Kayaks", desc: "Explore the Pettaquamscutt River by kayak, canoe, or paddleboard." },
-  { name: "Narragansett Surf & Skate", desc: "Surfboard rentals, surf lessons, and beach gear for Narragansett's famous waves." },
-  { name: "William C. O'Neill Bike Path", desc: "Scenic path connecting Narragansett and South Kingstown through coastal ponds and historic villages." },
+  { name: "Canonchet Farm Trail", desc: "A peaceful 2.7-mile trail across from the Town Beach featuring woodlands, wetlands, and historic sites." },
+  { name: "Narrow River", desc: "Explore the Pettaquamscutt River by kayak, canoe, or paddleboard." },
+  { name: "Adventureland Family Fun Park", desc: "A local favorite for families — go-karts, mini golf, and more. adventurelandri.com" },
 ];
 
 const dayTrips = [
@@ -125,7 +125,7 @@ const Discover = () => (
       <p className="font-body text-muted-foreground max-w-xl mx-auto">
         Our team is always happy to share favorite restaurants, beaches, and hidden local gems. Just ask the front desk during your stay!
       </p>
-      <a href="https://www.narragansettri.gov/visitors" target="_blank" rel="noopener noreferrer" className="inline-block mt-8 border-2 border-primary text-primary px-8 py-3 text-sm font-body font-semibold tracking-widest uppercase rounded hover:bg-primary hover:text-primary-foreground transition-colors">
+      <a href="https://www.narragansettri.gov/9/Visitors" target="_blank" rel="noopener noreferrer" className="inline-block mt-8 border-2 border-primary text-primary px-8 py-3 text-sm font-body font-semibold tracking-widest uppercase rounded hover:bg-primary hover:text-primary-foreground transition-colors">
         Official Visitor Guide
       </a>
     </section>

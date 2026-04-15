@@ -1,15 +1,15 @@
 import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
 import SectionHeading from "@/components/SectionHeading";
-import { Waves, Wifi, Coffee, Clock, Armchair, MapPin } from "lucide-react";
+import { Waves, Wifi, Coffee, Clock, Building2, MapPin } from "lucide-react";
 
 const amenities = [
-  { icon: Waves, name: "Pool", desc: "Currently closed for maintenance" },
+  { icon: Waves, name: "Indoor Pool", desc: "Currently under construction" },
   { icon: Wifi, name: "Free Wi-Fi", desc: "Complimentary throughout the hotel" },
   { icon: Clock, name: "24hr Front Desk", desc: "Always available to assist" },
-  { icon: Coffee, name: "Hot Coffee", desc: "Complimentary every morning" },
-  { icon: Armchair, name: "Patio Furniture", desc: "Relax outdoors in comfort" },
-  { icon: MapPin, name: "Closest to Beach", desc: "Steps from Narragansett Beach" },
+  { icon: Coffee, name: "Hot Coffee", desc: "Complimentary every morning 5am – 11am" },
+  { icon: Building2, name: "2nd Floor Deck", desc: "Relax outdoors in comfort" },
+  { icon: MapPin, name: "Steps from Beach", desc: "Just steps from Narragansett Beach" },
 ];
 
 const Amenities = () => (
@@ -52,10 +52,10 @@ const Amenities = () => (
         </motion.div>
         <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }}>
           <p className="text-sm font-body font-semibold tracking-[0.2em] uppercase text-accent mb-2">Dining</p>
-          <h2 className="text-3xl md:text-4xl font-display text-foreground mb-4">Our Restaurant & Bar</h2>
+          <h2 className="text-3xl md:text-4xl font-display text-foreground mb-4">Restaurant & Bar with Full Ocean Views</h2>
           <div className="gold-divider !mx-0 !my-4" />
           <div className="inline-block px-5 py-2 bg-accent/20 border border-accent/40 rounded-full mb-6">
-            <span className="text-sm font-body font-semibold text-accent tracking-wide uppercase">Coming Soon</span>
+            <span className="text-sm font-body font-semibold text-accent tracking-wide uppercase">Coming Soon! Summer 2026</span>
           </div>
           <p className="font-body text-muted-foreground leading-relaxed mb-6">
             We're preparing to bring a new dining experience to Aqua Blue Hotel. Stay tuned for updates on our restaurant and bar, featuring a variety of dishes, breakfast options, and an à la carte menu with a relaxed coastal atmosphere.

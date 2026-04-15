@@ -43,14 +43,14 @@ const rooms = [
     name: "Bridal Suite",
     subtitle: "Designed for Wedding Day Moments",
     desc: "Our Bridal Suite offers a spacious and private setting for couples preparing for their celebration. Located near the ballroom, the suite provides a comfortable space for getting ready.",
-    features: ["One King bedroom", "Separate preparation / sitting area", "1.5 bathrooms", "Mini-fridge and freezer"],
+    features: ["One King bedroom", "Separate preparation / sitting area", "1.5 bathrooms", "Mini-fridge"],
     img: "https://aquabluehotels.com/wp-content/uploads/2021/05/abwed.jpg",
   },
   {
     name: "Superior Suite",
     subtitle: "Two-Bedroom Comfort with Space & Privacy",
     desc: "The Superior Suite provides additional space and privacy with two separate bedrooms, making it an excellent option for families, friends, or extended stays.",
-    features: ["Two private bedrooms", "One King & One Queen", "Two bathrooms", "Mini-fridge and freezer"],
+    features: ["Two private bedrooms", "One King & One Queen", "Two full bathrooms", "Mini-fridge"],
     img: "https://aquabluehotels.com/wp-content/uploads/DSC08871-479x378.jpg",
   },
 ];
@@ -80,7 +80,7 @@ const Rooms = () => (
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-lg font-body text-primary-foreground/80 mt-4"
         >
-          Relaxed Coastal Comfort, Thoughtfully Designed
+          Comfortable Coastal Stays, Steps from the Beach
         </motion.p>
       </div>
     </section>
@@ -89,7 +89,7 @@ const Rooms = () => (
     <section className="section-padding">
       <div className="max-w-3xl mx-auto text-center">
         <p className="text-base md:text-lg font-body text-muted-foreground leading-relaxed">
-          Whether you're visiting for a wedding weekend, a beach getaway, or simply passing through the coast, our rooms provide a welcoming place to relax after a day spent exploring the shoreline, enjoying local dining, or celebrating with friends and family.
+          Whether you're visiting for a wedding weekend, a beach getaway, or simply passing along the coast, our rooms provide a welcoming place to relax.
         </p>
       </div>
     </section>

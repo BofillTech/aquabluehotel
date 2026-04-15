@@ -65,6 +65,9 @@ const GroupBookings = () => {
             <p className="font-body text-muted-foreground leading-relaxed mb-4">
               Rather than focusing only on a fixed number of rooms, our group bookings are designed around room nights — allowing your guests to choose the room type and length of stay that works best for them while still contributing to your overall group commitment.
             </p>
+            <p className="font-body text-muted-foreground leading-relaxed mb-4">
+              During peak season (May 1st – October 31st), a two-night minimum stay applies, which helps ensure availability and a consistent experience for all guests.
+            </p>
             <p className="font-body text-muted-foreground mb-3">This approach gives you:</p>
             <ul className="space-y-2 font-body text-muted-foreground">
               <li className="flex items-start gap-2">

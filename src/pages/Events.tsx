@@ -73,12 +73,11 @@ const Events = () => {
       {/* How Events Work */}
       <section className="section-padding">
         <SectionHeading subtitle="How It Works" title="Planning Your Event" />
-        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
           {[
-            { title: "Venue Rental", desc: "Events include private use of the Grand Ocean Ballroom with tables and setup options for a variety of layouts." },
-            { title: "Catering & Bar", desc: "We work with trusted partners to provide food and beverage service appropriate for your event style." },
-            { title: "Vendors", desc: "Work with your preferred vendors or use our recommended vendor list for catering, florals, photography, and more." },
-            { title: "Guest Accommodations", desc: "Our team can help coordinate group room blocks so your guests can easily book rooms for your event weekend." },
+            { title: "Venue Rental", desc: "Your event includes private use of the Grand Ocean Ballroom, complete with tables, chairs, and flexible layout options to suit your vision. A three-hour minimum rental is required." },
+            { title: "Vendors", desc: "We welcome outside vendors for additional elements such as linens, china, décor, and specialty rentals—giving you the freedom to fully customize your event." },
+            { title: "Guest Accommodations", desc: "We're here to help coordinate group room blocks, so your guests can easily secure accommodations and enjoy a seamless stay during your event weekend." },
           ].map((item, i) => (
             <motion.div key={item.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: i * 0.1 }} className="p-8 bg-secondary rounded-lg">
               <h3 className="text-xl font-display text-foreground mb-3">{item.title}</h3>
@@ -103,7 +102,7 @@ const Events = () => {
         <div className="max-w-3xl mx-auto">
           <SectionHeading subtitle="Get Started" title="Ready to Plan Your Event?" />
           <p className="text-center font-body text-muted-foreground mb-10">
-            Use the form below to tell us about your event — once submitted, our team will be in touch to review availability, answer questions, and walk you through next steps.
+            Use the form below to tell us about your event — once submitted, our Events Sales & Marketing Manager will be in touch to review availability, answer questions, and walk you through next steps.
           </p>
 
           <form className="space-y-5">
@@ -142,7 +141,7 @@ const Events = () => {
                 Send Now
               </button>
               <p className="font-body text-sm text-muted-foreground italic">
-                We'll be in touch within 24–48 hours.
+                No pressure, no guesswork — just clear guidance from the start.
               </p>
             </div>
           </form>
@@ -159,8 +158,9 @@ const Events = () => {
           {/* Cat */}
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-10 items-center bg-accent/10 rounded-xl p-8 md:p-12 mb-10">
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
+              <h3 className="text-xl font-display text-foreground mb-4">Meet Your Event Sales Manager</h3>
               <p className="font-body text-muted-foreground leading-relaxed mb-4">
-                <strong className="text-foreground">Hi, I'm Cat!</strong> I grew up right here in Narragansett, so Aqua Blue and this coastline have always felt like home to me. I started working at the hotel over ten years ago and have had the opportunity to learn many parts of the property along the way.
+                I grew up right here in Narragansett, so Aqua Blue and this coastline have always felt like home to me. I started working at the hotel over ten years ago and have had the opportunity to learn many parts of the property along the way.
               </p>
               <p className="font-body text-muted-foreground leading-relaxed mb-4">
                 After spending some time exploring other professional opportunities, I eventually found my way back to Aqua Blue — the place where my hospitality career began.
@@ -194,28 +194,32 @@ const Events = () => {
           <div className="grid grid-cols-1 lg:grid-cols-[auto_1fr] gap-10 items-center bg-accent/10 rounded-xl p-8 md:p-12">
             <motion.div initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="flex flex-col items-center gap-4">
               <div className="w-48 h-56 rounded-lg shadow-md bg-primary/10 flex items-center justify-center">
-                <span className="text-5xl font-display text-primary">M</span>
+                <span className="text-5xl font-display text-primary">AM</span>
               </div>
               <div className="text-center space-y-1.5">
-                <p className="font-display text-lg text-foreground">Mohammed</p>
-                <p className="text-xs font-body text-muted-foreground italic">Aqua Blue Hotel Manager</p>
+                <p className="font-display text-lg text-foreground">Antshawn Muhammad</p>
+                <p className="text-xs font-body text-muted-foreground italic">General Manager</p>
                 <a href="mailto:info@aquabluehotels.com" className="flex items-center gap-2 text-sm font-body text-muted-foreground hover:text-primary transition-colors">
                   <Mail className="w-3.5 h-3.5" /> info@aquabluehotels.com
                 </a>
-                <a href="tel:+14013639800" className="flex items-center gap-2 text-sm font-body text-muted-foreground hover:text-primary transition-colors">
-                  <Phone className="w-3.5 h-3.5" /> (401) 363-9800
+                <a href="tel:+14017836767" className="flex items-center gap-2 text-sm font-body text-muted-foreground hover:text-primary transition-colors">
+                  <Phone className="w-3.5 h-3.5" /> 401-783-6767
                 </a>
               </div>
             </motion.div>
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
+              <h3 className="text-xl font-display text-foreground mb-4">Meet Antshawn Muhammad, General Manager</h3>
               <p className="font-body text-muted-foreground leading-relaxed mb-4">
-                <strong className="text-foreground">Mohammed</strong> is the on-site manager at Aqua Blue Hotel. He oversees day-to-day operations and ensures every event runs smoothly from setup to breakdown.
+                I've built my career in hospitality by focusing on what matters most—creating a welcoming experience for every guest who walks through the door. From starting at the front desk to growing into leadership roles across Rhode Island and Boston, I've had the opportunity to work with incredible teams and be part of some truly dynamic properties.
               </p>
               <p className="font-body text-muted-foreground leading-relaxed mb-4">
-                With deep knowledge of the property and a hands-on approach, Mohammed works closely with Cat and the events team to coordinate logistics, manage vendor access, and make sure your guests have an exceptional experience throughout their stay.
+                Most recently, I served as Hotel Operations Manager at Encore Boston Harbor, followed by Assistant General Manager at the Residence Inn in Providence. Throughout each role, I've focused on team development, guest satisfaction, and making sure day-to-day operations run smoothly and efficiently.
+              </p>
+              <p className="font-body text-muted-foreground leading-relaxed mb-4">
+                At Aqua Blue, I'm excited to bring that experience into a more personalized, coastal setting—where hospitality feels a little more relaxed, but just as intentional. Whether you're here for a weekend getaway or a special event, my goal is to make sure your stay feels easy, comfortable, and memorable.
               </p>
               <p className="font-body text-muted-foreground leading-relaxed">
-                Whether it's a last-minute detail or a complex multi-day event, Mohammed is the person on the ground making it all come together.
+                Outside of the hotel, I'm a proud father and enjoy spending time behind the camera capturing moments through photography, as well as exploring my love for music. While I'm newer to the area, I'm looking forward to continuing to grow with the community and being part of what makes Narragansett such a special place.
               </p>
             </motion.div>
           </div>

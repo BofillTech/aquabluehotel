@@ -99,7 +99,7 @@ const Rooms = () => (
       <div className="max-w-4xl mx-auto px-6">
         <h3 className="text-center text-sm font-body font-semibold tracking-[0.2em] uppercase text-accent mb-8">Included in Every Stay</h3>
         <div className="flex flex-wrap justify-center gap-6 text-sm font-body text-foreground">
-          {["Complimentary Wi-Fi", "Mini-fridge", "Flat-screen television", "Individually controlled A/C", "Easy beach access"].map(a => (
+          {["Complimentary Wi-Fi", "Mini-fridge", "Flat-screen television", "Individually controlled A/C", "Steps from the beach"].map(a => (
             <span key={a} className="px-4 py-2 bg-background rounded-lg">{a}</span>
           ))}
         </div>

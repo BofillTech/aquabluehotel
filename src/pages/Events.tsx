@@ -199,11 +199,14 @@ const Events = () => {
               <div className="text-center space-y-1.5">
                 <p className="font-display text-lg text-foreground">Antshawn Muhammad</p>
                 <p className="text-xs font-body text-muted-foreground italic">General Manager</p>
-                <a href="mailto:info@aquabluehotels.com" className="flex items-center gap-2 text-sm font-body text-muted-foreground hover:text-primary transition-colors">
-                  <Mail className="w-3.5 h-3.5" /> info@aquabluehotels.com
+                <a href="mailto:amuhammad@aquabluehotels.com" className="flex items-center gap-2 text-sm font-body text-muted-foreground hover:text-primary transition-colors">
+                  <Mail className="w-3.5 h-3.5" /> amuhammad@aquabluehotels.com
+                </a>
+                <a href="tel:+14017874274" className="flex items-center gap-2 text-sm font-body text-muted-foreground hover:text-primary transition-colors">
+                  <Phone className="w-3.5 h-3.5" /> 401-787-4274
                 </a>
                 <a href="tel:+14017836767" className="flex items-center gap-2 text-sm font-body text-muted-foreground hover:text-primary transition-colors">
-                  <Phone className="w-3.5 h-3.5" /> 401-783-6767
+                  <PhoneCall className="w-3.5 h-3.5" /> 401-783-6767
                 </a>
               </div>
             </motion.div>

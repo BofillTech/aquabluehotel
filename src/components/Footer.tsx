@@ -19,10 +19,9 @@ const Footer = () => (
           </h4>
           <div className="flex flex-col gap-3">
             {[
-              { label: "Rooms", path: "/rooms" },
+              { label: "Room Blocks", path: "/group-bookings" },
               { label: "Events", path: "/events" },
               { label: "Amenities", path: "/amenities" },
-              { label: "Group Bookings", path: "/group-bookings" },
             ].map((l) => (
               <Link
                 key={l.path}
@@ -40,17 +39,17 @@ const Footer = () => (
             Contact
           </h4>
           <div className="flex flex-col gap-4 text-sm font-body opacity-70">
-            <a href="tel:+14013639800" className="flex items-center gap-2 hover:opacity-100 transition-opacity">
+            <a href="tel:+14017836767" className="flex items-center gap-2 hover:opacity-100 transition-opacity">
               <Phone className="w-4 h-4 text-gold" />
-              (401) 363-9800
+              (401) 783-6767
             </a>
-            <a href="mailto:info@aquabluehotels.com" className="flex items-center gap-2 hover:opacity-100 transition-opacity">
+            <a href="mailto:reachus@aquabluehotels.com" className="flex items-center gap-2 hover:opacity-100 transition-opacity">
               <Mail className="w-4 h-4 text-gold" />
-              info@aquabluehotels.com
+              reachus@aquabluehotels.com
             </a>
             <div className="flex items-start gap-2">
               <MapPin className="w-4 h-4 text-gold mt-0.5" />
-              <span>1208 Ocean Road,<br />Narragansett, RI 02882</span>
+              <span>1 Beach Street,<br />Narragansett, RI 02882</span>
             </div>
           </div>
         </div>

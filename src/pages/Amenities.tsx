@@ -58,7 +58,7 @@ const Amenities = () => (
             <span className="text-sm font-body font-semibold text-accent tracking-wide uppercase">Coming Soon! Summer 2026</span>
           </div>
           <p className="font-body text-muted-foreground leading-relaxed mb-6">
-            We're preparing to bring a new dining experience to Aqua Blue Hotel. Stay tuned for updates on our restaurant and bar, featuring a variety of dishes, breakfast options, and an à la carte menu with a relaxed coastal atmosphere.
+            We're preparing to bring a new dining experience to Aqua Blue Hotel. Stay tuned for updates on our restaurant and bar, featuring a full ocean view experience!
           </p>
         </motion.div>
       </div>

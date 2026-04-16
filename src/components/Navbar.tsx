@@ -58,11 +58,11 @@ const Navbar = () => {
 
         <div className="hidden lg:flex items-center gap-4">
           <a
-            href="tel:+14013639800"
+            href="tel:+14017836767"
             className="text-sm font-body flex items-center gap-1.5 transition-colors text-foreground"
           >
             <Phone className="w-3.5 h-3.5" />
-            (401) 363-9800
+            (401) 783-6767
           </a>
           <a
             href="https://aquabluehotels.com/"

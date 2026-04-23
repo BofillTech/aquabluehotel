@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head >
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name='robots' content='noindex, follow' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v25.6 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Page not found - AquaBlue Hotel - Narragansett, RI</title>
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:title" content="Page not found - AquaBlue Hotel - Narragansett, RI" />
+	<meta property="og:site_name" content="AquaBlue Hotel - Narragansett, RI" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://aquabluehotels.com/#website","url":"https://aquabluehotels.com/","name":"AquaBlue Hotel - Narragansett, RI","description":"AquaBlue Hotel - Narragansett, RI","publisher":{"@id":"https://aquabluehotels.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://aquabluehotels.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://aquabluehotels.com/#organization","name":"AquaBlue Hotel - Narragansett, RI","url":"https://aquabluehotels.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://aquabluehotels.com/#/schema/logo/image/","url":"https://aquabluehotels.com/wp-content/uploads/Logo-2.png","contentUrl":"https://aquabluehotels.com/wp-content/uploads/Logo-2.png","width":881,"height":284,"caption":"AquaBlue Hotel - Narragansett, RI"},"image":{"@id":"https://aquabluehotels.com/#/schema/logo/image/"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="AquaBlue Hotel - Narragansett, RI &raquo; Feed" href="https://aquabluehotels.com/feed/" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v10.1.2 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-C6FYJMFBLG"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '10.1.2';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+								var MonsterInsightsDefaultLocations = {"page_location":"https:\/\/aquabluehotels.com\/wp-content\/uploads\/2024\/02\/IMG_3980-Edit-scaled.jpg\/"};
+								if ( typeof MonsterInsightsPrivacyGuardFilter === 'function' ) {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsPrivacyGuardFilter( MonsterInsightsExcludeQuery ) : MonsterInsightsPrivacyGuardFilter( MonsterInsightsDefaultLocations );
+				} else {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsExcludeQuery : MonsterInsightsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-C6FYJMFBLG',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+					if ( MonsterInsightsLocations.page_location ) {
+						__gtagTracker('set', MonsterInsightsLocations);
+					}
+										__gtagTracker('config', 'G-C6FYJMFBLG', {"forceSSL":"true","link_attribution":"true","page_path":'\/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer} );
+										window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+							<!-- / Google Analytics by MonsterInsights -->
+		<link rel='stylesheet' id='colorbox-css' href='https://aquabluehotels.com/wp-content/plugins/wp-colorbox/example5/colorbox.css?ver=ab9faed4927170e86cedb9e094c8cce9' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='xdsoft-datetimepicker-css' href='https://aquabluehotels.com/wp-content/plugins/date-time-picker-field/assets/vendor/xdsoft-datetimepicker/jquery.datetimepicker.min.css?ver=2.5.20' type='text/css' media='all' />
+<link rel='stylesheet' id='availability-datepicker-css' href='https://aquabluehotels.com/wp-content/plugins/date-time-picker-field/public/css/avdp-public.css?ver=3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='eg-fontawesome-css' href='https://aquabluehotels.com/wp-content/plugins/everest-gallery/css/font-awesome.min.css?ver=1.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='eg-frontend-css' href='https://aquabluehotels.com/wp-content/plugins/everest-gallery/css/eg-frontend.css?ver=1.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='eg-pretty-photo-css' href='https://aquabluehotels.com/wp-content/plugins/everest-gallery/css/prettyPhoto.css?ver=1.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='eg-colorbox-css' href='https://aquabluehotels.com/wp-content/plugins/everest-gallery/css/eg-colorbox.css?ver=1.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='eg-magnific-popup-css' href='https://aquabluehotels.com/wp-content/plugins/everest-gallery/css/magnific-popup.css?ver=1.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='eg-animate-css' href='https://aquabluehotels.com/wp-content/plugins/everest-gallery/css/animate.css?ver=1.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='eg-bxslider-css' href='https://aquabluehotels.com/wp-content/plugins/everest-gallery/css/jquery.bxslider.min.css?ver=1.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-style-css' href='https://aquabluehotels.com/wp-content/plugins/mhrahman-pack/public/slick/slick.css?ver=ab9faed4927170e86cedb9e094c8cce9' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mcm-styles-css' href='https://aquabluehotels.com/wp-content/plugins/wp-media-category-management/css/wp-mcm-styles.css?ver=2.5.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wppopups-base-css' href='https://aquabluehotels.com/wp-content/plugins/wp-popups-lite/src/assets/css/wppopups-base.css?ver=2.2.0.7' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css' href='//fonts.googleapis.com/css?family=Alata%7CGelasio%7CRaleway&#038;display=swap&#038;ver=1.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='monochrome-ionicons-css' href='https://aquabluehotels.com/wp-content/themes/aquablu-pro/assets/css/icofont.min.css?ver=1.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='booking-form-css' href='https://aquabluehotels.com/wp-content/themes/aquablu-pro/assets/css/booking.css?ver=1.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='aquablu-pro-css' href='https://aquabluehotels.com/wp-content/themes/aquablu-pro/style.css?ver=1.0.2' type='text/css' media='all' />
+<style id='rocket-lazyload-inline-css' type='text/css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(https://aquabluehotels.com/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}
+</style>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/plugins/wp-colorbox/jquery.colorbox-min.js?ver=1.1.6" id="colorbox-js"></script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/plugins/wp-colorbox/wp-colorbox.js?ver=1.1.6" id="wp-colorbox-js"></script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=10.1.2" id="monsterinsights-frontend-script-js" async="async" data-wp-strategy="async"></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='monsterinsights-frontend-script-js-extra'>/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/aquabluehotels.com","hash_tracking":"false","v4_id":"G-C6FYJMFBLG"};/* ]]> */
+</script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/plugins/everest-gallery/js/jquery.bxslider.js?ver=1.0.4" id="eg-bxslider-script-js"></script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/plugins/everest-gallery/js/imagesloaded.min.js?ver=1.0.4" id="eg-imageloaded-script-js"></script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/plugins/everest-gallery/js/jquery.prettyPhoto.js?ver=1.0.4" id="eg-prettyphoto-js"></script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/plugins/everest-gallery/js/jquery.colorbox-min.js?ver=1.0.4" id="eg-colorbox-js"></script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/plugins/everest-gallery/js/isotope.js?ver=1.0.4" id="eg-isotope-script-js"></script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/plugins/everest-gallery/js/jquery.magnific-popup.min.js?ver=1.0.4" id="eg-magnific-popup-js"></script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/plugins/everest-gallery/js/jquery.everest-lightbox.js?ver=1.0.4" id="eg-everest-lightbox-js"></script>
+<script type="text/javascript" id="eg-frontend-script-js-extra">
+/* <![CDATA[ */
+var eg_frontend_js_object = {"ajax_url":"https:\/\/aquabluehotels.com\/wp-admin\/admin-ajax.php","strings":{"video_missing":"Video URL missing"},"ajax_nonce":"b2666e3b8b","plugin_url":"https:\/\/aquabluehotels.com\/wp-content\/plugins\/everest-gallery\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/plugins/everest-gallery/js/eg-frontend.js?ver=1.0.4" id="eg-frontend-script-js"></script>
+<link rel="https://api.w.org/" href="https://aquabluehotels.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://aquabluehotels.com/xmlrpc.php?rsd" />
+
+		<!-- Custom Logo: hide header text -->
+		<style id="custom-logo-css" type="text/css">
+			.site-title, .site-description {
+				position: absolute;
+				clip: rect(1px, 1px, 1px, 1px);
+			}
+		</style>
+		<link rel="pingback" href="https://aquabluehotels.com/xmlrpc.php" />
+    <style>
+        @media (min-width: 1023px){
+            /*.title-area{
+                display: none;
+            }
+            .genesis-nav-menu{
+                margin-top: 15px;
+            }*/
+        }
+    </style>
+
+<link rel="icon" href="https://aquabluehotels.com/wp-content/uploads/2020/03/AB-Favicon.png" sizes="32x32" />
+<link rel="icon" href="https://aquabluehotels.com/wp-content/uploads/2020/03/AB-Favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://aquabluehotels.com/wp-content/uploads/2020/03/AB-Favicon.png" />
+<meta name="msapplication-TileImage" content="https://aquabluehotels.com/wp-content/uploads/2020/03/AB-Favicon.png" />
+		<style type="text/css" id="wp-custom-css">
+			.eapps-instagram-feed-posts-grid-load-more-text.eapps-instagram-feed-posts-grid-load-more-text-visible {
+display: none!important;
+}
+.eapps-instagram-feed-posts-grid-load-more-container.eapps-instagram-feed-posts-grid-load-more-enabled {
+    display: none!important;
+}
+.front-page-1 .room_carousel_block {
+    margin-top:20px;
+}
+
+@media (max-width: 767px) {
+   .home_video video#bg_home {
+      display: none;
+   }
+	.home_video {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    min-height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+}
+
+/*Temp*/
+.front-page-3,
+.front-page-4{
+	display:none;
+}
+
+.site-footer {
+    padding-bottom: 0px;
+}
+
+.site-header {
+background:white;
+}
+@media (min-width: 1340px) {
+    .wp-custom-logo .title-area {
+        max-width: 170px;
+        padding: 5px 0px 5px;
+        top: 0;
+    }
+}
+@media (min-width: 1600px) {
+    .wp-custom-logo .title-area {
+        max-width: 225px;
+        padding: 5px 0px 5px;
+        top: 0;
+    }
+}
+
+@media (min-width: 1600px) {
+    .site-header .nav-primary {
+        width: calc(100% - 225px);
+    }
+}		</style>
+		<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+<body class="error404 wp-custom-logo header-full-width full-width-content genesis-breadcrumbs-hidden" ontouchstart=" "><div class="site-container"><ul class="genesis-skip-link"><li><a href="#genesis-nav-primary" class="screen-reader-shortcut"> Skip to primary navigation</a></li><li><a href="#genesis-content" class="screen-reader-shortcut"> Skip to main content</a></li></ul><header class="site-header"><div class="wrap">        <div class="mobile-header">
+            <div class="header-right-section"><section id="custom_html-5" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><div class="textwidget custom-html-widget"><ul class="social-media">
+<li><a href="https://www.facebook.com/AquaBHotel/" target="_blank" rel="noopener"><i class="icofont-facebook"></i></a></li>
+<li><a href="https://www.linkedin.com/company/aqua-blue-hotel" target="_blank" rel="noopener"><i class="icofont-linkedin"></i></a></li>
+<li><a href="https://www.instagram.com/aquabluehotel/" target="_blank" rel="noopener"><i class="icofont-instagram"></i></a></li>
+<li class="mb-item"><a href="tel:+1-401-783-6767"><i class="icofont-phone"></i></a></li>
+<li class="mb-item">
+<a href="https://bookings.rmscloud.com/Search/Index/171C7B3DE31D11BC/90/">BOOK NOW</a>
+</li>
+</ul><!--social-media ends-->
+
+<div class="header_cta">
+<div class="header_cta_inner">
+<div class="hc1">
+<a href="tel:+1-401-783-6767">+1-401-783-6767</a>
+</div>
+
+<div class="hc2">
+<a href="https://bookings.rmscloud.com/Search/Index/171C7B3DE31D11BC/90/">BOOK NOW</a>
+</div>
+</div>
+</div></div></div></section>
+</div>        </div>
+    <div class="title-area"><a href="https://aquabluehotels.com/" class="custom-logo-link" rel="home"><img width="881" height="284" src="https://aquabluehotels.com/wp-content/uploads/Logo-2.png" class="custom-logo" alt="AquaBlue Hotel &#8211; Narragansett, RI" decoding="async" fetchpriority="high" srcset="https://aquabluehotels.com/wp-content/uploads/Logo-2.png 881w, https://aquabluehotels.com/wp-content/uploads/Logo-2-300x97.png 300w, https://aquabluehotels.com/wp-content/uploads/Logo-2-768x248.png 768w" sizes="(max-width: 881px) 100vw, 881px" /></a><p class="site-title"><a href="https://aquabluehotels.com/">AquaBlue Hotel - Narragansett, RI</a></p><p class="site-description">AquaBlue Hotel - Narragansett, RI</p></div><nav class="nav-primary" aria-label="Main" id="genesis-nav-primary"><div class="wrap"><ul id="menu-footer-menu" class="menu genesis-nav-menu menu-primary js-superfish"><li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-21"><a href="https://aquabluehotels.com/" data-ps2id-api="true"><span >Home</span></a></li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="https://aquabluehotels.com/rooms/" data-ps2id-api="true"><span >Rooms</span></a></li>
+<li id="menu-item-594" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-594"><a href="https://aquabluehotels.com/group-bookings/" data-ps2id-api="true"><span >Group Bookings</span></a></li>
+<li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"><a href="https://aquabluehotels.com/weddings/" data-ps2id-api="true"><span >Events</span></a></li>
+<li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72"><a href="https://aquabluehotels.com/amenities/" data-ps2id-api="true"><span >Amenities</span></a></li>
+<li id="menu-item-114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-114"><a href="https://aquabluehotels.com/discover-naragansett/" data-ps2id-api="true"><span >Discover Naragansett</span></a></li>
+<li id="menu-item-113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113"><a href="https://aquabluehotels.com/contact-us/" data-ps2id-api="true"><span >Contact Us</span></a></li>
+<li class="right right-item"><div class="header-right-section"><section id="custom_html-5" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><div class="textwidget custom-html-widget"><ul class="social-media">
+<li><a href="https://www.facebook.com/AquaBHotel/" target="_blank" rel="noopener"><i class="icofont-facebook"></i></a></li>
+<li><a href="https://www.linkedin.com/company/aqua-blue-hotel" target="_blank" rel="noopener"><i class="icofont-linkedin"></i></a></li>
+<li><a href="https://www.instagram.com/aquabluehotel/" target="_blank" rel="noopener"><i class="icofont-instagram"></i></a></li>
+<li class="mb-item"><a href="tel:+1-401-783-6767"><i class="icofont-phone"></i></a></li>
+<li class="mb-item">
+<a href="https://bookings.rmscloud.com/Search/Index/171C7B3DE31D11BC/90/">BOOK NOW</a>
+</li>
+</ul><!--social-media ends-->
+
+<div class="header_cta">
+<div class="header_cta_inner">
+<div class="hc1">
+<a href="tel:+1-401-783-6767">+1-401-783-6767</a>
+</div>
+
+<div class="hc2">
+<a href="https://bookings.rmscloud.com/Search/Index/171C7B3DE31D11BC/90/">BOOK NOW</a>
+</div>
+</div>
+</div></div></div></section>
+</div></li></ul></div></nav></div></header>    
+    
+
+        
+    
+
+    <div class="site-inner"><div class="wrap"><div class="content-sidebar-wrap"><main class="content" id="genesis-content"><article class="entry"><h1 class="entry-title">Not found, error 404</h1><div class="entry-content"><p>The page you are looking for no longer exists. Perhaps you can return back to the <a href="https://aquabluehotels.com/">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below.</p><form class="search-form" method="get" action="https://aquabluehotels.com/" role="search"><label class="search-form-label screen-reader-text" for="searchform-1">Search this website</label><input class="search-form-input" type="search" name="s" id="searchform-1" placeholder="Search this website"><input class="search-form-submit" type="submit" value="Search"><meta content="https://aquabluehotels.com/?s={s}"></form></div></article></main></div></div></div><div class="footer-area"><div class="before-footer"><div class="wrap"><div class="before-footer-inner"><section id="custom_html-6" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><div class="textwidget custom-html-widget"><div class="footer-top">
+<ul class="footer-social">
+<li>Connect</li>
+<li><a href="https://www.facebook.com/AquaBHotel/"><i class="icofont-facebook"></i></a></li>
+<li><a href="https://www.linkedin.com/company/aqua-blue-hotel"><i class="icofont-linkedin"></i></a></li>
+<li><a href="https://www.instagram.com/aquabluehotel/"><i class="icofont-instagram"></i></a></li>
+</ul>
+
+<p>LIVE INSTAGRAM FEED</p>	
+</div></div></div></section>
+</div></div><footer class="site-footer"><div class="wrap"><div class="footer-area-inner"><div class="footer-widgets-0"><div class="footer-widgets-0-inner"><section id="media_image-2" class="widget widget_media_image"><div class="widget-wrap"><a href="/"><img width="287" height="300" src="https://aquabluehotels.com/wp-content/uploads/Logo-1-287x300.png" class="image wp-image-614  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" decoding="async" srcset="https://aquabluehotels.com/wp-content/uploads/Logo-1-287x300.png 287w, https://aquabluehotels.com/wp-content/uploads/Logo-1.png 706w" sizes="(max-width: 287px) 100vw, 287px" /></a></div></section>
+</div></div><div class="footer-widgets-1"><section id="custom_html-8" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><h3 class="widgettitle widget-title">HELPFUL LINKS</h3>
+<div class="textwidget custom-html-widget"><ul class="menu">
+<li><a href="/">Home</a></li>
+<li><a href="/rooms/">Rooms</a></li>
+<li><a href="/events/">Events</a></li>
+<li><a href="/amenities/">Amenities</a></li>
+<li><a href="/discover-naragansett/">Discover Naragansett</a></li>
+<li><a href="/contact-us/">Contact Us</a></li>
+	<li><a href="/policies/">Policies</a></li>
+<li><a href="/accessibility/">Accessibility</a></li>
+</ul></div></div></section>
+</div><div class="footer-widgets-2"><section id="custom_html-7" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><div class="textwidget custom-html-widget"><div class="nl-area">
+<div class="nl-area-inner">
+<h3>Sign Up <br>For Our <br> Newsletter</h3>
+<script>(function() {
+	window.mc4wp = window.mc4wp || {
+		listeners: [],
+		forms: {
+			on: function(evt, cb) {
+				window.mc4wp.listeners.push(
+					{
+						event   : evt,
+						callback: cb
+					}
+				);
+			}
+		}
+	}
+})();
+</script><!-- Mailchimp for WordPress v4.12.1 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-232" method="post" data-id="232" data-name="mailchimp form" ><div class="mc4wp-form-fields"><div class="newsletter">
+<div class="form-email-field">
+<input type="email" name="EMAIL" placeholder="Your email address" required />
+<input type="submit" value="Sign up" />
+</div>
+</div></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1776937804" /><input type="hidden" name="_mc4wp_form_id" value="232" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin -->				
+</div>
+</div><!-- nl-area --></div></div></section>
+</div><div class="footer-widgets-3"><section id="custom_html-3" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><h3 class="widgettitle widget-title">CONTACT US</h3>
+<div class="textwidget custom-html-widget"><p>
+Aqua Blue Hotel <br>
+1 Beach Street <br>
+Narragansett, <br>
+Rl, 02882 <br>
+P: <a href="tel:1-401-783-6767">1-401-783-6767</a> <br> 
+</p></div></div></section>
+</div></div></div><div class="after-footer"><div class="wrap"><div class="after-footer-inner"><section id="custom_html-4" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><div class="textwidget custom-html-widget"><p>
+	&#xA9;&nbsp;2026 Aqua Blue Hotel Reservations: <a href="tel:1-401-783-6767">1-401-783-6767</a>. All rights reserved.
+</p>
+<p>
+	Website Design by <a target="_blank" href="https://www.bofilltech.com/" rel="noopener">Bofill Tech</a>
+</p></div></div></section>
+</div></div></div></footer></div><div class="eg-everest-lightbox-overlay">
+    <div class="eg-everest-lightbox-controls">
+        <span class="eg-everest-lightbox-previous">Previous</span>
+        <span class="eg-everest-lightbox-next">Next</span>
+    </div>
+    <div class="eg-close-pop-up">
+        <span class="eg-everest-lightbox-close">Close</span>
+    </div>
+    <div class="eg-everest-lightbox-inner-overlay"></div>
+    <div class="eg-everest-lightbox-wrap">
+        <div class="eg-everest-lightbox-source-holder">
+            <img src=""/>
+        </div>
+        <div class="eg-everest-lightbox-details-wrap">
+            <div class="eg-everest-lightbox-caption">Test Caption</div>
+            <div class="eg-everest-lightbox-description">Test Description goes like this</div>
+        </div>
+    </div>
+</div>
+<script>
+              (function(e){
+                  var el = document.createElement('script');
+                  el.setAttribute('data-account', 'tZil0f8wKS');
+                  el.setAttribute('src', 'https://cdn.userway.org/widget.js');
+                  document.body.appendChild(el);
+                })();
+              </script><script>(function() {function maybePrefixUrlField () {
+  const value = this.value.trim()
+  if (value !== '' && value.indexOf('http') !== 0) {
+    this.value = 'http://' + value
+  }
+}
+
+const urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]')
+for (let j = 0; j < urlFields.length; j++) {
+  urlFields[j].addEventListener('blur', maybePrefixUrlField)
+}
+})();</script><div class="wppopups-whole" style="display: none"></div><script type="text/javascript" src="https://aquabluehotels.com/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18" id="wp-hooks-js"></script>
+<script type="text/javascript" id="wppopups-js-extra">
+/* <![CDATA[ */
+var wppopups_vars = {"is_admin":"","ajax_url":"https:\/\/aquabluehotels.com\/wp-admin\/admin-ajax.php","pid":"0","is_front_page":"","is_blog_page":"","is_category":"","site_url":"https:\/\/aquabluehotels.com","is_archive":"","is_search":"","is_singular":"","is_preview":"","facebook":"","twitter":"","val_required":"This field is required.","val_url":"Please enter a valid URL.","val_email":"Please enter a valid email address.","val_number":"Please enter a valid number.","val_checklimit":"You have exceeded the number of allowed selections: {#}.","val_limit_characters":"{count} of {limit} max characters.","val_limit_words":"{count} of {limit} max words.","disable_form_reopen":"__return_false"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/plugins/wp-popups-lite/src/assets/js/wppopups.js?ver=2.2.0.7" id="wppopups-js"></script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/plugins/date-time-picker-field/assets/vendor/xdsoft-datetimepicker/jquery.datetimepicker.full.min.js?ver=2.5.20" id="xdsoft-datetimepicker-js"></script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/plugins/date-time-picker-field/public/js/avdp-availability-core.js?ver=3.0" id="avdp-availability-core-js"></script>
+<script type="text/javascript" id="availability-datepicker-js-extra">
+/* <![CDATA[ */
+var avdpPublic = {"config":{"booking_type":"fixed","min_date":"2026-04-23","max_date":"2026-05-23","disabled_dates":[],"disabled_weekdays":[0,6],"exempted_dates":[],"allowed_dates_with_times":[],"time_24hr":true,"slot_interval":30,"min_days":1,"max_days":14,"min_duration":1,"max_duration":24,"buffer_before":0,"buffer_after":0,"minimum_notice":0,"weekly_hours":{"monday":{"enabled":true,"slots":[{"start":"09:00","end":"17:00"}]},"tuesday":{"enabled":true,"slots":[{"start":"09:00","end":"17:00"}]},"wednesday":{"enabled":true,"slots":[{"start":"09:00","end":"17:00"}]},"thursday":{"enabled":true,"slots":[{"start":"09:00","end":"17:00"}]},"friday":{"enabled":true,"slots":[{"start":"09:00","end":"17:00"}]},"saturday":{"enabled":false,"slots":[]},"sunday":{"enabled":false,"slots":[]}},"format":"Y-m-d H:i","formatDate":"Y-m-d","formatTime":"H:i","lang":"en","minDate":"2026-04-23","maxDate":"2026-05-23","minDatetime":null,"disabledDates":[],"disabledWeekDays":[0,6],"step":30,"defaultTime":"09:00","exemptedDates":[],"inline":false,"timepicker":true,"library":"xdsoft"},"selectors":{"single_field":".avdp-datepicker","start_date":".avdp-start-date","start_time":".avdp-start-time","end_date":".avdp-end-date","end_time":".avdp-end-time","start_datetime":".avdp-start-datetime","end_datetime":".avdp-end-datetime"},"theme":"light","i18n":{"select_time":"Select Time"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/plugins/date-time-picker-field/public/js/avdp-public.js?ver=3.0" id="availability-datepicker-js"></script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/plugins/mhrahman-pack/public/slick/slick.min.js" id="slick-js-js"></script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/plugins/mhrahman-pack/public/js/main.js" id="main-js-js"></script>
+<script type="text/javascript" id="page-scroll-to-id-plugin-script-js-extra">
+/* <![CDATA[ */
+var mPS2id_params = {"instances":{"mPS2id_instance_0":{"selector":"a[href*='#']:not([href='#'])","autoSelectorMenuLinks":"true","excludeSelector":"a[href^='#tab-'], a[href^='#tabs-'], a[data-toggle]:not([data-toggle='tooltip']), a[data-slide], a[data-vc-tabs], a[data-vc-accordion], a.screen-reader-text.skip-link","scrollSpeed":800,"autoScrollSpeed":"true","scrollEasing":"easeInOutQuint","scrollingEasing":"easeOutQuint","forceScrollEasing":"false","pageEndSmoothScroll":"true","stopScrollOnUserAction":"false","autoCorrectScroll":"false","autoCorrectScrollExtend":"false","layout":"vertical","offset":"65","dummyOffset":"false","highlightSelector":"","clickedClass":"mPS2id-clicked","targetClass":"mPS2id-target","highlightClass":"mPS2id-highlight","forceSingleHighlight":"false","keepHighlightUntilNext":"false","highlightByNextTarget":"false","appendHash":"false","scrollToHash":"true","scrollToHashForAll":"true","scrollToHashDelay":0,"scrollToHashUseElementData":"true","scrollToHashRemoveUrlHash":"false","disablePluginBelow":0,"adminDisplayWidgetsId":"true","adminTinyMCEbuttons":"true","unbindUnrelatedClickEvents":"false","unbindUnrelatedClickEventsSelector":"","normalizeAnchorPointTargets":"false","encodeLinks":"false"}},"total_instances":"1","shortcode_class":"_ps2id"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/plugins/page-scroll-to-id/js/page-scroll-to-id.min.js?ver=1.7.9" id="page-scroll-to-id-plugin-script-js"></script>
+<script type="text/javascript" id="rocket_lazyload_css-js-extra">
+/* <![CDATA[ */
+var rocket_lazyload_css_data = {"threshold":"300"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket_lazyload_css-js-after">
+/* <![CDATA[ */
+!function o(n,c,a){function u(t,e){if(!c[t]){if(!n[t]){var r="function"==typeof require&&require;if(!e&&r)return r(t,!0);if(s)return s(t,!0);throw(e=new Error("Cannot find module '"+t+"'")).code="MODULE_NOT_FOUND",e}r=c[t]={exports:{}},n[t][0].call(r.exports,function(e){return u(n[t][1][e]||e)},r,r.exports,o,n,c,a)}return c[t].exports}for(var s="function"==typeof require&&require,e=0;e<a.length;e++)u(a[e]);return u}({1:[function(e,t,r){"use strict";{const c="undefined"==typeof rocket_pairs?[]:rocket_pairs,a=(("undefined"==typeof rocket_excluded_pairs?[]:rocket_excluded_pairs).map(t=>{var e=t.selector;document.querySelectorAll(e).forEach(e=>{e.setAttribute("data-rocket-lazy-bg-"+t.hash,"excluded")})}),document.querySelector("#wpr-lazyload-bg-container"));var o=rocket_lazyload_css_data.threshold||300;const u=new IntersectionObserver(e=>{e.forEach(t=>{t.isIntersecting&&c.filter(e=>t.target.matches(e.selector)).map(t=>{var e;t&&((e=document.createElement("style")).textContent=t.style,a.insertAdjacentElement("afterend",e),t.elements.forEach(e=>{u.unobserve(e),e.setAttribute("data-rocket-lazy-bg-"+t.hash,"loaded")}))})})},{rootMargin:o+"px"});function n(){0<(0<arguments.length&&void 0!==arguments[0]?arguments[0]:[]).length&&c.forEach(t=>{try{document.querySelectorAll(t.selector).forEach(e=>{"loaded"!==e.getAttribute("data-rocket-lazy-bg-"+t.hash)&&"excluded"!==e.getAttribute("data-rocket-lazy-bg-"+t.hash)&&(u.observe(e),(t.elements||=[]).push(e))})}catch(e){console.error(e)}})}n(),function(){const r=window.MutationObserver;return function(e,t){if(e&&1===e.nodeType)return(t=new r(t)).observe(e,{attributes:!0,childList:!0,subtree:!0}),t}}()(document.querySelector("body"),n)}},{}]},{},[1]);
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-includes/js/hoverIntent.min.js?ver=1.10.2" id="hoverIntent-js"></script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/themes/genesis/lib/js/menu/superfish.min.js?ver=1.7.10" id="superfish-js"></script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/themes/genesis/lib/js/menu/superfish.args.min.js?ver=3.6.2" id="superfish-args-js"></script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/themes/genesis/lib/js/skip-links.min.js?ver=3.6.2" id="skip-links-js"></script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/themes/aquablu-pro/assets/js/main.js?ver=1.0.2" id="mhrahman-pro-js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=6LdAQhobAAAAAGDFfJNJO_wYUXEU8JyOF6vbtcX6&amp;ver=3.0" id="google-recaptcha-js"></script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="wpcf7-recaptcha-js-before">
+/* <![CDATA[ */
+var wpcf7_recaptcha = {
+    "sitekey": "6LdAQhobAAAAAGDFfJNJO_wYUXEU8JyOF6vbtcX6",
+    "actions": {
+        "homepage": "homepage",
+        "contactform": "contactform"
+    }
+};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://aquabluehotels.com/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=6.0.6" id="wpcf7-recaptcha-js"></script>
+<script type="text/javascript" defer src="https://aquabluehotels.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.12.1" id="mc4wp-forms-api-js"></script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://aquabluehotels.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script><script>function lazyLoadThumb(e,alt,l){var t='<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="Play Youtube video"></button>';if(l){t=t.replace('data-lazy-','');t=t.replace('loading="lazy"','');t=t.replace(/<noscript>.*?<\/noscript>/g,'');}t=t.replace('alt=""','alt="'+alt+'"');return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?"":"&"+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var exclusions=["Shell-only.svg","YHI-textonly.svg"];var e,t,p,u,l,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)(e=document.createElement("div")),(u='https://i.ytimg.com/vi/ID/hqdefault.jpg'),(u=u.replace('ID',a[t].dataset.id)),(l=exclusions.some(exclusion=>u.includes(exclusion))),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query",a[t].dataset.query),e.setAttribute("data-src",a[t].dataset.src),(e.innerHTML=lazyLoadThumb(a[t].dataset.id,a[t].dataset.alt,l)),a[t].appendChild(e),(p=e.querySelector(".play")),(p.onclick=lazyLoadYoutubeIframe)});</script></body></html>

@@ -53,7 +53,7 @@ const Events = () => {
             <h2 className="text-3xl md:text-4xl font-display text-foreground mb-4">The Grand Ocean Ballroom</h2>
             <div className="gold-divider !mx-0 !my-4" />
             <p className="font-body text-muted-foreground leading-relaxed mb-6">
-              With panoramic views of Narragansett Beach and floor-to-ceiling windows, the space offers a bright and inviting coastal setting. A dramatic 16-foot built-in bar, private guest restrooms, and elevator access provide both convenience and comfort.
+              With panoramic views of Narragansett Beach, ocean-facing windows, and a flexible layout, the space offers a bright coastal setting that can be shaped around weddings, celebrations, retreats, and private events.
             </p>
             <div className="space-y-4 mb-8">
               <h4 className="text-sm font-body font-semibold tracking-widest uppercase text-foreground">Capacity</h4>
@@ -64,8 +64,24 @@ const Events = () => {
               </ul>
             </div>
           </motion.div>
-          <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="aspect-[4/3] rounded-lg overflow-hidden shadow-[var(--shadow-elevated)]">
-            <img src="https://aquabluehotels.com/wp-content/uploads/IMG_3994-Edit.jpg" alt="Grand Ocean Ballroom" className="w-full h-full object-cover" loading="lazy" />
+          <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="aspect-[4/3] rounded-lg overflow-hidden shadow-[var(--shadow-elevated)] bg-background flex items-center justify-center">
+            <span className="text-sm font-body text-muted-foreground">Ballroom photo coming soon</span>
+          </motion.div>
+        </div>
+      </section>
+
+      <section className="section-padding">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="aspect-[4/3] rounded-lg overflow-hidden shadow-[var(--shadow-elevated)] bg-secondary flex items-center justify-center">
+            <span className="text-sm font-body text-muted-foreground">Back deck ceremony photo coming soon</span>
+          </motion.div>
+          <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }}>
+            <p className="text-sm font-body font-semibold tracking-[0.2em] uppercase text-accent mb-2">Ceremonies</p>
+            <h2 className="text-3xl md:text-4xl font-display text-foreground mb-4">A Coastal Moment on the Back Deck</h2>
+            <div className="gold-divider !mx-0 !my-4" />
+            <p className="font-body text-muted-foreground leading-relaxed">
+              The back deck creates an open-air setting for ceremonies and gatherings with the coastline close by, offering an effortless transition from vows to celebration.
+            </p>
           </motion.div>
         </div>
       </section>

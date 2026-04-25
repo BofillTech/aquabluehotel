@@ -597,6 +597,15 @@ p { line-height: 1.6; }
   transition: transform var(--transition-slower);
 }
 
+.room-card__media--placeholder {
+  background-color: var(--color-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-muted-foreground);
+  font-size: 0.875rem;
+}
+
 .room-card:hover .room-card__media-img { transform: scale(1.05); }
 
 .room-card__title {

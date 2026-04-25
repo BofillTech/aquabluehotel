@@ -8,9 +8,9 @@ const HERO_VIDEO = "https://dl.dropboxusercontent.com/scl/fi/kz6ui5tsjie59o1th1x
 
 const rooms = [
   { name: "The Blue", desc: "Oceanfront King with Balcony", img: "https://aquabluehotels.com/wp-content/uploads/IMG_3651-Edit-2.jpg" },
-  { name: "The Surf", desc: "King with Balcony & Partial Ocean View", img: "https://aquabluehotels.com/wp-content/uploads/IMG_3816-Edit-2-479x378.jpg" },
   { name: "The Aqua", desc: "Two Queens with Balcony", img: "https://aquabluehotels.com/wp-content/uploads/IMG_3541-Edit-479x378.jpg" },
-  { name: "The Wave", desc: "King Room", img: "https://aquabluehotels.com/wp-content/uploads/IMG_3954-Edit-Edit-479x378.jpg" },
+  { name: "The Surf", desc: "King with Balcony & Partial Ocean View", img: "https://aquabluehotels.com/wp-content/uploads/IMG_3816-Edit-2-479x378.jpg" },
+  { name: "The Wave", desc: "King Room", img: "" },
 ];
 
 const Index = () => {
@@ -74,12 +74,16 @@ const Index = () => {
           >
             <Link to="/rooms" className="group block">
               <div className="aspect-[4/5] overflow-hidden rounded-lg mb-5 shadow-[var(--shadow-card)]">
-                <img
-                  src={room.img}
-                  alt={room.name}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  loading="lazy"
-                />
+                {room.img ? (
+                  <img
+                    src={room.img}
+                    alt={room.name}
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    loading="lazy"
+                  />
+                ) : (
+                  <div className="w-full h-full bg-secondary flex items-center justify-center text-sm font-body text-muted-foreground">Photo coming soon</div>
+                )}
               </div>
               <h3 className="text-xl font-display text-foreground group-hover:text-primary transition-colors">
                 {room.name}
@@ -131,7 +135,7 @@ const Index = () => {
         title="Everything You Need"
       />
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-5xl mx-auto text-center">
-        {["Indoor Pool (Under Construction)", "Free Wi-Fi", "24hr Front Desk", "Hot Coffee", "2nd Floor Deck", "Steps from Beach"].map((a, i) => (
+        {["Indoor Pool", "Steps from the Beach", "Second-Floor Deck", "Coffee Availability", "Front Desk (24/7)", "Restaurant & Bar — Sapphire Coming Soon"].map((a, i) => (
           <motion.div
             key={a}
             initial={{ opacity: 0, y: 16 }}

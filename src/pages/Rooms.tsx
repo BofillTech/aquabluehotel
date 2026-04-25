@@ -12,6 +12,13 @@ const rooms = [
     img: "https://aquabluehotels.com/wp-content/uploads/IMG_3651-Edit-2.jpg",
   },
   {
+    name: "The Aqua",
+    subtitle: "Two Queen Beds with Step-Out Balcony",
+    desc: "Designed with flexibility in mind, the Aqua Room is ideal for friends, families, or small groups traveling together. Two queen beds and a private step-out balcony provide fresh coastal air throughout your stay.",
+    features: ["Two Queen beds", "Partial ocean views", "Private step-out balcony", "Mini-fridge", "Private bathroom"],
+    img: "https://aquabluehotels.com/wp-content/uploads/IMG_3541-Edit-479x378.jpg",
+  },
+  {
     name: "The Surf",
     subtitle: "King Room with Step-Out Balcony & Partial Ocean View",
     desc: "The Surf Room offers a comfortable coastal stay with partial views of Narragansett Beach or the Pier Marketplace. Step outside onto your private step-out balcony to enjoy the fresh ocean air.",
@@ -19,18 +26,11 @@ const rooms = [
     img: "https://aquabluehotels.com/wp-content/uploads/IMG_3816-Edit-2-479x378.jpg",
   },
   {
-    name: "The Aqua",
-    subtitle: "Two Queen Beds with Step-Out Balcony",
-    desc: "Designed with flexibility in mind, the Aqua Room is ideal for friends, families, or small groups traveling together. Two queen beds and a step-out balcony provide space to relax.",
-    features: ["Two Queen beds", "Partial ocean views", "Private step-out balcony", "Sitting area", "Mini-fridge", "Private bathroom"],
-    img: "https://aquabluehotels.com/wp-content/uploads/IMG_3541-Edit-479x378.jpg",
-  },
-  {
     name: "The Wave",
     subtitle: "King Room",
     desc: "The Wave Room offers a quiet and comfortable space to unwind after a day by the water. Ideal for solo travelers or couples, this room provides simple comfort in a relaxed setting.",
     features: ["One King bed", "Neighborhood or property view", "Mini-fridge", "Private bathroom", "No balcony"],
-    img: "https://aquabluehotels.com/wp-content/uploads/IMG_3954-Edit-Edit-479x378.jpg",
+    img: "",
   },
   {
     name: "The Shell",
@@ -119,8 +119,8 @@ const Rooms = () => (
             transition={{ duration: 0.7 }}
             className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${i % 2 !== 0 ? "lg:direction-rtl" : ""}`}
           >
-            <div className={`aspect-[4/3] rounded-lg overflow-hidden shadow-[var(--shadow-elevated)] ${i % 2 !== 0 ? "lg:order-2" : ""}`}>
-              <img src={room.img} alt={room.name} className="w-full h-full object-cover" loading="lazy" />
+            <div className={`aspect-[4/3] rounded-lg overflow-hidden shadow-[var(--shadow-elevated)] bg-secondary flex items-center justify-center ${i % 2 !== 0 ? "lg:order-2" : ""}`}>
+              {room.img ? <img src={room.img} alt={room.name} className="w-full h-full object-cover" loading="lazy" /> : <span className="text-sm font-body text-muted-foreground">Photo coming soon</span>}
             </div>
             <div className={i % 2 !== 0 ? "lg:order-1" : ""}>
               <p className="text-sm font-body font-semibold tracking-[0.15em] uppercase text-accent mb-2">{room.subtitle}</p>

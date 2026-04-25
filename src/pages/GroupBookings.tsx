@@ -68,22 +68,7 @@ const GroupBookings = () => {
             <p className="font-body text-muted-foreground leading-relaxed mb-4">
               During peak season (May 1st – October 31st), a two-night minimum stay applies, which helps ensure availability and a consistent experience for all guests.
             </p>
-            <p className="font-body text-muted-foreground mb-3">This approach gives you:</p>
-            <ul className="space-y-2 font-body text-muted-foreground">
-              <li className="flex items-start gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
-                More flexibility for your guests
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
-                Clear expectations around availability and pricing
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
-                A smoother booking experience for everyone involved
-              </li>
-            </ul>
-            <p className="font-body text-muted-foreground mt-4 italic">
+            <p className="font-body text-muted-foreground leading-relaxed italic">
               It's a modern, guest-friendly system — and one we've found works best for real-life group travel.
             </p>
           </motion.div>

@@ -20,35 +20,6 @@ const beaches = [
   },
 ];
 
-const adventures = [
-  { name: "Canonchet Farm Trail", desc: "A peaceful 2.7-mile trail across from the Town Beach featuring woodlands, wetlands, and historic sites." },
-  { name: "Narrow River", desc: "Explore the Pettaquamscutt River by kayak, canoe, or paddleboard." },
-  { name: "Adventureland Family Fun Park", desc: "A local favorite for families — go-karts, mini golf, and more. adventurelandri.com" },
-];
-
-const dayTrips = [
-  {
-    name: "Newport, RI",
-    desc: "30 minutes away — historic mansions, waterfront dining, sailing, and the iconic Cliff Walk.",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Cliffwalk_-_40_Steps_-_Newport%2C_RI_%2851488613289%29.jpg/1280px-Cliffwalk_-_40_Steps_-_Newport%2C_RI_%2851488613289%29.jpg",
-  },
-  {
-    name: "Providence, RI",
-    desc: "Art galleries, theaters, award-winning restaurants, and seasonal WaterFire events.",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Providence_Rhode_Island_skyline.jpg/1280px-Providence_Rhode_Island_skyline.jpg",
-  },
-  {
-    name: "Block Island",
-    desc: "A short ferry ride from Point Judith — dramatic coastal bluffs, biking trails, and beaches.",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Block_Island_from_Above.jpg/1280px-Block_Island_from_Above.jpg",
-  },
-  {
-    name: "Westerly & Watch Hill",
-    desc: "Charming seaside village known for boutique shops, oceanfront dining, and a historic carousel.",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Watch_Hill_Lighthouse_2012.jpg/1280px-Watch_Hill_Lighthouse_2012.jpg",
-  },
-];
-
 const Discover = () => (
   <Layout>
     <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
@@ -67,7 +38,7 @@ const Discover = () => (
     <section className="section-padding">
       <div className="max-w-3xl mx-auto text-center mb-16">
         <p className="text-base md:text-lg font-body text-muted-foreground leading-relaxed">
-          Narragansett is known for its beautiful New England coastline, relaxed beach culture, and vibrant summer energy. From morning walks along the seawall to sunset views over the Atlantic, there's always something to explore.
+          Narragansett is defined by its beaches. From the Town Beach just steps away to nearby state beaches with calmer coves and wide stretches of sand, Aqua Blue puts the coast within easy reach.
         </p>
       </div>
     </section>
@@ -84,37 +55,6 @@ const Discover = () => (
             <div className="p-6">
               <h3 className="text-lg font-display text-foreground mb-3">{b.name}</h3>
               <p className="text-sm font-body text-muted-foreground leading-relaxed">{b.desc}</p>
-            </div>
-          </motion.div>
-        ))}
-      </div>
-    </section>
-
-    {/* Adventures */}
-    <section className="section-padding">
-      <SectionHeading subtitle="Get Active" title="Outdoor Adventures" />
-      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-        {adventures.map((a, i) => (
-          <motion.div key={a.name} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }} className="p-8 bg-secondary rounded-lg">
-            <h3 className="text-lg font-display text-foreground mb-3">{a.name}</h3>
-            <p className="text-sm font-body text-muted-foreground leading-relaxed">{a.desc}</p>
-          </motion.div>
-        ))}
-      </div>
-    </section>
-
-    {/* Day Trips */}
-    <section className="section-padding bg-secondary">
-      <SectionHeading subtitle="Explore Beyond" title="Easy Day Trips" />
-      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-        {dayTrips.map((d, i) => (
-          <motion.div key={d.name} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }} className="bg-background rounded-lg overflow-hidden shadow-sm">
-            <div className="aspect-[16/9] overflow-hidden">
-              <img src={d.img} alt={d.name} className="w-full h-full object-cover" loading="lazy" />
-            </div>
-            <div className="p-6">
-              <h3 className="text-xl font-display text-foreground mb-3">{d.name}</h3>
-              <p className="text-sm font-body text-muted-foreground leading-relaxed">{d.desc}</p>
             </div>
           </motion.div>
         ))}

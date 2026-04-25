@@ -518,6 +518,15 @@ p { line-height: 1.6; }
   object-fit: cover;
 }
 
+.hero__media--placeholder {
+  background-color: var(--color-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-muted-foreground);
+  font-size: 0.875rem;
+}
+
 .hero__overlay {
   position: absolute;
   inset: 0;

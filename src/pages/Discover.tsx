@@ -6,17 +6,17 @@ const beaches = [
   {
     name: "Narragansett Town Beach",
     desc: "Known as the \"crown jewel,\" this popular spot offers soft sand, consistent surfing, and a mile-long walking space.",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Narragansett_Beach_RI_2023.jpg/1280px-Narragansett_Beach_RI_2023.jpg",
+    img: "",
   },
   {
     name: "Roger Wheeler & Salty Brine",
     desc: "These state beaches offer calmer, protected waters ideal for families with young children.",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Roger_Wheeler_State_Beach_%2853844731671%29.jpg/1280px-Roger_Wheeler_State_Beach_%2853844731671%29.jpg",
+    img: "",
   },
   {
     name: "Scarborough State Beach",
     desc: "Known for its large size, scenic boardwalk, and recent pavilion renovations. A favorite for surfers and sunset watchers.",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Scarborough_State_Beach_North%2C_Narragansett%2C_RI.jpg/1280px-Scarborough_State_Beach_North%2C_Narragansett%2C_RI.jpg",
+    img: "",
   },
 ];
 
@@ -50,7 +50,7 @@ const Discover = () => (
         {beaches.map((b, i) => (
           <motion.div key={b.name} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }} className="bg-background rounded-lg overflow-hidden shadow-sm">
             <div className="aspect-[16/10] overflow-hidden">
-              <img src={b.img} alt={b.name} className="w-full h-full object-cover" loading="lazy" />
+              {b.img ? <img src={b.img} alt={b.name} className="w-full h-full object-cover" loading="lazy" /> : <div className="w-full h-full bg-background flex items-center justify-center text-sm font-body text-muted-foreground">Photo coming soon</div>}
             </div>
             <div className="p-6">
               <h3 className="text-lg font-display text-foreground mb-3">{b.name}</h3>

@@ -135,7 +135,7 @@ const Index = () => {
         title="Everything You Need"
       />
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-5xl mx-auto text-center">
-        {["Indoor Pool (Under Construction)", "Free Wi-Fi", "24hr Front Desk", "Hot Coffee", "2nd Floor Deck", "Steps from Beach"].map((a, i) => (
+        {["Indoor Pool", "Steps from the Beach", "Second-Floor Deck", "Coffee Availability", "Front Desk (24/7)", "Restaurant & Bar — Sapphire Coming Soon"].map((a, i) => (
           <motion.div
             key={a}
             initial={{ opacity: 0, y: 16 }}

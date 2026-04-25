@@ -117,12 +117,12 @@ const Rooms = () => (
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${i % 2 !== 0 ? "lg:direction-rtl" : ""}`}
+            className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
           >
-            <div className={`aspect-[4/3] rounded-lg overflow-hidden shadow-[var(--shadow-elevated)] bg-secondary flex items-center justify-center ${i % 2 !== 0 ? "lg:order-2" : ""}`}>
+            <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-[var(--shadow-elevated)] bg-secondary flex items-center justify-center">
               {room.img ? <img src={room.img} alt={room.name} className="w-full h-full object-cover" loading="lazy" /> : <span className="text-sm font-body text-muted-foreground">Photo coming soon</span>}
             </div>
-            <div className={i % 2 !== 0 ? "lg:order-1" : ""}>
+            <div>
               <p className="text-sm font-body font-semibold tracking-[0.15em] uppercase text-accent mb-2">{room.subtitle}</p>
               <h3 className="text-3xl font-display text-foreground mb-4">{room.name}</h3>
               <div className="gold-divider !mx-0 !my-4" />

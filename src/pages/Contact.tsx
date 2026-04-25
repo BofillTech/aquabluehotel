@@ -20,7 +20,9 @@ const Contact = () => {
   return (
     <Layout>
       <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
-        <img src="https://aquabluehotels.com/wp-content/uploads/IMG_3651-Edit-2.jpg" alt="Contact" className="absolute inset-0 w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-secondary flex items-center justify-center">
+          <span className="text-sm font-body text-muted-foreground">Beach photo coming soon</span>
+        </div>
         <div className="absolute inset-0 bg-foreground/50" />
         <div className="relative z-10 text-center">
           <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="text-4xl md:text-6xl font-display text-primary-foreground">

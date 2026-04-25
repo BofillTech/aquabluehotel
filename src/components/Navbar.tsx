@@ -10,7 +10,7 @@ const navLinks = [
   { label: "Events", path: "/events" },
   { label: "Amenities", path: "/amenities" },
   { label: "Discover Narragansett", path: "/discover" },
-  { label: "Contact Us", path: "/contact" },
+  { label: "Reach Us", path: "/contact" },
 ];
 
 const Navbar = () => {

@@ -24,7 +24,7 @@ const Contact = () => {
         <div className="absolute inset-0 bg-foreground/50" />
         <div className="relative z-10 text-center">
           <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="text-4xl md:text-6xl font-display text-primary-foreground">
-            Contact Us
+            Reach Us
           </motion.h1>
         </div>
       </section>
@@ -33,7 +33,7 @@ const Contact = () => {
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Info */}
           <div>
-            <h2 className="text-3xl font-display text-foreground mb-6">Get in Touch</h2>
+            <h2 className="text-3xl font-display text-foreground mb-6">Reach Us</h2>
             <div className="gold-divider !mx-0 !my-4" />
             <p className="font-body text-muted-foreground leading-relaxed mb-10">
               Feel free to reach out if you have any questions about your stay, events, or group bookings. We're here to help.
@@ -66,7 +66,7 @@ const Contact = () => {
                 <div>
                   <h4 className="text-sm font-body font-semibold text-foreground mb-1">Hours</h4>
                   <div className="font-body text-muted-foreground text-sm space-y-1">
-                    <p>Front Desk: 24/7</p>
+                    <p>Open 24/7</p>
                     <p className="mt-2">Check-In: 3:00 PM</p>
                     <p>Check-Out: 11:00 AM</p>
                   </div>

@@ -59,8 +59,7 @@ const Footer = () => (
             Hours
           </h4>
           <div className="text-sm font-body opacity-70 space-y-2">
-            <p>Weekdays: 8 AM – 9 PM</p>
-            <p>Weekends: 8 AM – 10 PM</p>
+            <p>Open 24/7</p>
             <p className="pt-2 border-t border-primary-foreground/10">Check-In: 3:00 PM</p>
             <p>Check-Out: 11:00 AM</p>
           </div>

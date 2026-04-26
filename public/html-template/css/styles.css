@@ -1180,7 +1180,8 @@ p { line-height: 1.6; }
   .footer__grid { grid-template-columns: repeat(2, 1fr); }
   .amenity-strip { grid-template-columns: repeat(3, 1fr); }
   .amenity-grid { grid-template-columns: repeat(2, 1fr); }
-  .event-gallery { grid-template-columns: repeat(2, 1fr); }
+  .event-gallery,
+  .room-block-gallery { grid-template-columns: repeat(2, 1fr); }
   .form__row--3 { grid-template-columns: repeat(3, 1fr); }
   .form__row--2 { grid-template-columns: repeat(2, 1fr); }
   .section-heading__title { font-size: 2.5rem; }

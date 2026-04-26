@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
 import SectionHeading from "@/components/SectionHeading";
 import { Waves, Coffee, Clock, Building2, MapPin, Utensils } from "lucide-react";
+import amenitiesPool from "@/assets/amenities-pool.png";
+import loungeDeck from "@/assets/lounge-2nd-floor-deck.webp";
 
 const amenities = [
   { icon: Waves, name: "Indoor Pool", desc: "Currently under construction" },
@@ -15,7 +17,7 @@ const amenities = [
 const Amenities = () => (
   <Layout>
     <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
-      <img src="https://aquabluehotels.com/wp-content/uploads/2020/02/restaurant-1-712x599.png" alt="Amenities" className="absolute inset-0 w-full h-full object-cover" />
+      <img src={amenitiesPool} alt="Indoor pool at Aqua Blue Hotel" className="absolute inset-0 w-full h-full object-cover" />
       <div className="absolute inset-0 bg-foreground/50" />
       <div className="relative z-10 text-center">
         <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="text-4xl md:text-6xl font-display text-primary-foreground">
@@ -41,6 +43,38 @@ const Amenities = () => (
             <p className="text-sm font-body text-muted-foreground">{a.desc}</p>
           </motion.div>
         ))}
+      </div>
+    </section>
+
+    <section className="section-padding bg-secondary">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="aspect-[4/3] rounded-lg overflow-hidden shadow-[var(--shadow-elevated)]">
+          <img src={amenitiesPool} alt="Indoor pool with lounge seating" className="w-full h-full object-cover" loading="lazy" />
+        </motion.div>
+        <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }}>
+          <p className="text-sm font-body font-semibold tracking-[0.2em] uppercase text-accent mb-2">Relax</p>
+          <h2 className="text-3xl md:text-4xl font-display text-foreground mb-4">Indoor Pool</h2>
+          <div className="gold-divider !mx-0 !my-4" />
+          <p className="font-body text-muted-foreground leading-relaxed">
+            Our indoor pool is currently under construction and being prepared as a relaxing amenity for future stays.
+          </p>
+        </motion.div>
+      </div>
+    </section>
+
+    <section className="section-padding">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }}>
+          <p className="text-sm font-body font-semibold tracking-[0.2em] uppercase text-accent mb-2">Outdoor Space</p>
+          <h2 className="text-3xl md:text-4xl font-display text-foreground mb-4">Second-Floor Deck</h2>
+          <div className="gold-divider !mx-0 !my-4" />
+          <p className="font-body text-muted-foreground leading-relaxed">
+            Lounge outdoors on the second-floor deck with open coastal views and a comfortable place to unwind near the water.
+          </p>
+        </motion.div>
+        <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="aspect-[4/3] rounded-lg overflow-hidden shadow-[var(--shadow-elevated)]">
+          <img src={loungeDeck} alt="Second-floor deck lounge overlooking the water" className="w-full h-full object-cover" loading="lazy" />
+        </motion.div>
       </div>
     </section>
 

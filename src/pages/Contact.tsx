@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
 import SectionHeading from "@/components/SectionHeading";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import contactBeach from "@/assets/contact-beach.jpg";
 
 const Contact = () => {
   const [form, setForm] = useState({
@@ -20,9 +21,7 @@ const Contact = () => {
   return (
     <Layout>
       <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-secondary flex items-center justify-center">
-          <span className="text-sm font-body text-muted-foreground">Beach photo coming soon</span>
-        </div>
+        <img src={contactBeach} alt="Aerial view of Narragansett coastline near Aqua Blue Hotel" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-foreground/50" />
         <div className="relative z-10 text-center">
           <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="text-4xl md:text-6xl font-display text-primary-foreground">

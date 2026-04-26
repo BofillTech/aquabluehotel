@@ -1,29 +1,44 @@
 import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
 import SectionHeading from "@/components/SectionHeading";
+import discoverHero from "@/assets/discover-narragansett-hero.jpg";
+import narragansettBeach from "@/assets/narragansett-beach-surf.jpg";
+import rogerWheelerBeach from "@/assets/roger-wheeler-state-beach.jpg";
+import scarboroughBeach from "@/assets/scarborough-state-beach.jpg";
+import watchHill from "@/assets/watch-hill.jpg";
+import newport from "@/assets/newport.jpeg";
+import providence from "@/assets/providence.jpg";
+import blockIsland from "@/assets/block-island.jpg";
 
 const beaches = [
   {
     name: "Narragansett Town Beach",
     desc: "Known as the \"crown jewel,\" this popular spot offers soft sand, consistent surfing, and a mile-long walking space.",
-    img: "",
+    img: narragansettBeach,
   },
   {
     name: "Roger Wheeler & Salty Brine",
     desc: "These state beaches offer calmer, protected waters ideal for families with young children.",
-    img: "",
+    img: rogerWheelerBeach,
   },
   {
     name: "Scarborough State Beach",
     desc: "Known for its large size, scenic boardwalk, and recent pavilion renovations. A favorite for surfers and sunset watchers.",
-    img: "",
+    img: scarboroughBeach,
   },
+];
+
+const dayTrips = [
+  { name: "Watch Hill", desc: "A classic coastal village with boutique shops, harbor views, and timeless seaside character.", img: watchHill },
+  { name: "Newport", desc: "Historic mansions, harbor walks, and oceanfront scenery make Newport an easy Rhode Island day trip.", img: newport },
+  { name: "Providence", desc: "Rhode Island's capital offers restaurants, arts, architecture, and waterfront city views.", img: providence },
+  { name: "Block Island", desc: "Ferries, beaches, bluffs, and quiet island roads create a memorable coastal escape.", img: blockIsland },
 ];
 
 const Discover = () => (
   <Layout>
     <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
-      <img src="https://aquabluehotels.com/wp-content/uploads/IMG_3994-Edit.jpg" alt="Narragansett" className="absolute inset-0 w-full h-full object-cover" />
+      <img src={discoverHero} alt="Aerial view of Narragansett coastline" className="absolute inset-0 w-full h-full object-cover" />
       <div className="absolute inset-0 bg-foreground/50" />
       <div className="relative z-10 text-center px-6">
         <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="text-4xl md:text-6xl font-display text-primary-foreground">
@@ -55,6 +70,23 @@ const Discover = () => (
             <div className="p-6">
               <h3 className="text-lg font-display text-foreground mb-3">{b.name}</h3>
               <p className="text-sm font-body text-muted-foreground leading-relaxed">{b.desc}</p>
+            </div>
+          </motion.div>
+        ))}
+      </div>
+    </section>
+
+    <section className="section-padding">
+      <SectionHeading subtitle="Explore More" title="Nearby Day Trips" />
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        {dayTrips.map((trip, i) => (
+          <motion.div key={trip.name} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }} className="bg-background rounded-lg overflow-hidden shadow-sm">
+            <div className="aspect-[16/10] overflow-hidden">
+              <img src={trip.img} alt={trip.name} className="w-full h-full object-cover" loading="lazy" />
+            </div>
+            <div className="p-6">
+              <h3 className="text-lg font-display text-foreground mb-3">{trip.name}</h3>
+              <p className="text-sm font-body text-muted-foreground leading-relaxed">{trip.desc}</p>
             </div>
           </motion.div>
         ))}

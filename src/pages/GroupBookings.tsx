@@ -2,6 +2,9 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
 import SectionHeading from "@/components/SectionHeading";
+import bridalSuiteLounge from "@/assets/bridal-suite-lounge.jpg";
+import bridalSuiteRoomView from "@/assets/bridal-suite-room-view.jpg";
+import blueView from "@/assets/blue-view.jpg";
 
 const GroupBookings = () => {
   const [form, setForm] = useState({
@@ -47,7 +50,7 @@ const GroupBookings = () => {
             </p>
           </motion.div>
           <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="rounded-lg overflow-hidden shadow-[var(--shadow-elevated)]">
-            <img src="https://aquabluehotels.com/wp-content/uploads/2024/02/IMG_4016-Edit-scaled.jpg" alt="Aqua Blue Hotel Suite" className="w-full h-full object-cover aspect-[4/3]" loading="lazy" />
+            <img src={bridalSuiteLounge} alt="Aqua Blue Hotel bridal suite lounge" className="w-full h-full object-cover aspect-[4/3]" loading="lazy" />
           </motion.div>
         </div>
       </section>
@@ -56,7 +59,7 @@ const GroupBookings = () => {
       <section className="section-padding bg-secondary">
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="rounded-lg overflow-hidden shadow-[var(--shadow-elevated)] order-2 lg:order-1">
-            <img src="https://aquabluehotels.com/wp-content/uploads/2024/02/IMG_3980-Edit-scaled.jpg" alt="Hotel Room" className="w-full h-full object-cover aspect-[4/3]" loading="lazy" />
+            <img src={blueView} alt="Ocean King room view at Aqua Blue Hotel" className="w-full h-full object-cover aspect-[4/3]" loading="lazy" />
           </motion.div>
           <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="order-1 lg:order-2">
             <h2 className="text-2xl md:text-3xl font-display text-foreground mb-4 italic">
@@ -71,6 +74,18 @@ const GroupBookings = () => {
             <p className="font-body text-muted-foreground leading-relaxed italic">
               It's a modern, guest-friendly system — and one we've found works best for real-life group travel.
             </p>
+          </motion.div>
+        </div>
+      </section>
+
+      <section className="section-padding">
+        <SectionHeading subtitle="Stay Together" title="Comfortable Spaces for Your Group" />
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+          <motion.div initial={{ opacity: 0, y: 18 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="aspect-[4/3] rounded-lg overflow-hidden shadow-[var(--shadow-card)]">
+            <img src={bridalSuiteRoomView} alt="Bridal suite room view with lounge seating" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" />
+          </motion.div>
+          <motion.div initial={{ opacity: 0, y: 18 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }} className="aspect-[4/3] rounded-lg overflow-hidden shadow-[var(--shadow-card)]">
+            <img src={bridalSuiteLounge} alt="Bridal suite sitting area at Aqua Blue Hotel" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" />
           </motion.div>
         </div>
       </section>

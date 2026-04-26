@@ -4,6 +4,13 @@ import Layout from "@/components/Layout";
 import SectionHeading from "@/components/SectionHeading";
 import { Mail, Phone, PhoneCall } from "lucide-react";
 import catPhoto from "@/assets/cat-gray.jpg";
+import weddingPhoto from "@/assets/wedding-1.jpg";
+import tableSetPhoto from "@/assets/table-set.webp";
+import goldChairsPhoto from "@/assets/gold-chairs.jpg";
+import clearChairsPhoto from "@/assets/clear-chairs.jpg";
+import ceremonyDeckPhoto from "@/assets/ceremony-2nd-floor-deck.jpeg";
+import ballroomWindowPhoto from "@/assets/ballroom-window-view.jpg";
+import ballroomKitchenPhoto from "@/assets/ballroom-kitchen-entrance.jpg";
 
 const Events = () => {
   const [form, setForm] = useState({
@@ -25,7 +32,7 @@ const Events = () => {
     <Layout>
       {/* Hero */}
       <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
-        <img src="https://aquabluehotels.com/wp-content/uploads/2020/03/wedding-0.jpg" alt="Events" className="absolute inset-0 w-full h-full object-cover" />
+        <img src={weddingPhoto} alt="Wedding reception in the Grand Ocean Ballroom" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-foreground/50" />
         <div className="relative z-10 text-center px-6">
           <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="text-4xl md:text-6xl font-display text-primary-foreground">
@@ -64,16 +71,16 @@ const Events = () => {
               </ul>
             </div>
           </motion.div>
-          <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="aspect-[4/3] rounded-lg overflow-hidden shadow-[var(--shadow-elevated)] bg-background flex items-center justify-center">
-            <span className="text-sm font-body text-muted-foreground">Ballroom photo coming soon</span>
+          <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="aspect-[4/3] rounded-lg overflow-hidden shadow-[var(--shadow-elevated)]">
+            <img src={ballroomWindowPhoto} alt="Grand Ocean Ballroom with ocean-facing windows" className="w-full h-full object-cover" />
           </motion.div>
         </div>
       </section>
 
       <section className="section-padding">
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="aspect-[4/3] rounded-lg overflow-hidden shadow-[var(--shadow-elevated)] bg-secondary flex items-center justify-center">
-            <span className="text-sm font-body text-muted-foreground">Back deck ceremony photo coming soon</span>
+          <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="aspect-[4/3] rounded-lg overflow-hidden shadow-[var(--shadow-elevated)]">
+            <img src={ceremonyDeckPhoto} alt="Second-floor deck ceremony setup overlooking the water" className="w-full h-full object-cover" />
           </motion.div>
           <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }}>
             <p className="text-sm font-body font-semibold tracking-[0.2em] uppercase text-accent mb-2">Ceremonies</p>
@@ -83,6 +90,22 @@ const Events = () => {
               The back deck creates an open-air setting for ceremonies and gatherings with the coastline close by, offering an effortless transition from vows to celebration.
             </p>
           </motion.div>
+        </div>
+      </section>
+
+      <section className="section-padding bg-secondary">
+        <SectionHeading subtitle="Gallery" title="Event Spaces & Setups" />
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {[
+            { src: tableSetPhoto, alt: "Elegant event table setting with champagne glasses" },
+            { src: goldChairsPhoto, alt: "Ballroom reception setup with gold chairs" },
+            { src: clearChairsPhoto, alt: "Ballroom setup with clear chairs and ocean-facing windows" },
+            { src: ballroomKitchenPhoto, alt: "Grand Ocean Ballroom dance floor and kitchen entrance" },
+          ].map((image, i) => (
+            <motion.div key={image.alt} initial={{ opacity: 0, y: 18 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: i * 0.08 }} className="aspect-[4/3] rounded-lg overflow-hidden shadow-[var(--shadow-card)]">
+              <img src={image.src} alt={image.alt} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" />
+            </motion.div>
+          ))}
         </div>
       </section>
 

@@ -2,6 +2,11 @@ import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
 import SectionHeading from "@/components/SectionHeading";
 import { Link } from "react-router-dom";
+import roomBlue from "@/assets/room-blue-207.jpg";
+import roomAqua from "@/assets/room-aqua.jpg";
+import roomSurf from "@/assets/room-surf.jpg";
+import roomWave from "@/assets/room-wave.jpg";
+import roomHero from "@/assets/room-blue-ocean-sunset.jpg";
 
 const rooms = [
   {
@@ -9,28 +14,28 @@ const rooms = [
     subtitle: "Oceanfront King with Step-Out Balcony",
     desc: "The Blue Room offers the most direct connection to the ocean, featuring full panoramic views of Narragansett's iconic coastline. With a king bed and a private step-out balcony, this room is a favorite for couples seeking a relaxing coastal escape.",
     features: ["One King bed", "Full oceanfront views", "Private step-out balcony", "Mini-fridge", "Sitting area", "Private bathroom"],
-    img: "https://aquabluehotels.com/wp-content/uploads/IMG_3651-Edit-2.jpg",
+    img: roomBlue,
   },
   {
     name: "The Aqua",
     subtitle: "Two Queen Beds with Step-Out Balcony",
     desc: "Designed with flexibility in mind, the Aqua Room is ideal for friends, families, or small groups traveling together. Two queen beds and a private step-out balcony provide fresh coastal air throughout your stay.",
     features: ["Two Queen beds", "Partial ocean views", "Private step-out balcony", "Mini-fridge", "Private bathroom"],
-    img: "https://aquabluehotels.com/wp-content/uploads/IMG_3541-Edit-479x378.jpg",
+    img: roomAqua,
   },
   {
     name: "The Surf",
     subtitle: "King Room with Step-Out Balcony & Partial Ocean View",
     desc: "The Surf Room offers a comfortable coastal stay with partial views of Narragansett Beach or the Pier Marketplace. Step outside onto your private step-out balcony to enjoy the fresh ocean air.",
     features: ["One King bed", "Partial ocean or village views", "Private step-out balcony", "Mini-fridge", "Private bathroom"],
-    img: "https://aquabluehotels.com/wp-content/uploads/IMG_3816-Edit-2-479x378.jpg",
+    img: roomSurf,
   },
   {
     name: "The Wave",
     subtitle: "King Room",
     desc: "The Wave Room offers a quiet and comfortable space to unwind after a day by the water. Ideal for solo travelers or couples, this room provides simple comfort in a relaxed setting.",
     features: ["One King bed", "Neighborhood or property view", "Mini-fridge", "Private bathroom", "No balcony"],
-    img: "",
+    img: roomWave,
   },
   {
     name: "The Shell",
@@ -60,7 +65,7 @@ const Rooms = () => (
     {/* Hero */}
     <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
       <img
-        src="https://aquabluehotels.com/wp-content/uploads/IMG_3651-Edit-2.jpg"
+        src={roomHero}
         alt="Accommodations"
         className="absolute inset-0 w-full h-full object-cover"
       />

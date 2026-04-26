@@ -3,14 +3,20 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import SectionHeading from "@/components/SectionHeading";
 import Layout from "@/components/Layout";
+import roomBlue from "@/assets/room-blue-207.jpg";
+import roomAqua from "@/assets/room-aqua.jpg";
+import roomSurf from "@/assets/room-surf.jpg";
+import roomWave from "@/assets/room-wave.jpg";
+import weddingPhoto from "@/assets/wedding-1.jpg";
+import discoverHero from "@/assets/discover-narragansett-hero.jpg";
 
 const HERO_VIDEO = "https://dl.dropboxusercontent.com/scl/fi/kz6ui5tsjie59o1th1xvk/AquaBlue_Summary_Video.mp4?rlkey=73muxa5s0djnso75c1dz8fd6e&st=vbp83x3s";
 
 const rooms = [
-  { name: "The Blue", desc: "Oceanfront King with Balcony", img: "https://aquabluehotels.com/wp-content/uploads/IMG_3651-Edit-2.jpg" },
-  { name: "The Aqua", desc: "Two Queens with Balcony", img: "https://aquabluehotels.com/wp-content/uploads/IMG_3541-Edit-479x378.jpg" },
-  { name: "The Surf", desc: "King with Balcony & Partial Ocean View", img: "https://aquabluehotels.com/wp-content/uploads/IMG_3816-Edit-2-479x378.jpg" },
-  { name: "The Wave", desc: "King Room", img: "" },
+  { name: "The Blue", desc: "Oceanfront King with Balcony", img: roomBlue },
+  { name: "The Aqua", desc: "Two Queens with Balcony", img: roomAqua },
+  { name: "The Surf", desc: "King with Balcony & Partial Ocean View", img: roomSurf },
+  { name: "The Wave", desc: "King Room", img: roomWave },
 ];
 
 const Index = () => {
@@ -106,7 +112,7 @@ const Index = () => {
     {/* Events CTA */}
     <section className="relative py-32 overflow-hidden">
       <img
-        src="https://aquabluehotels.com/wp-content/uploads/2020/03/wedding-0.jpg"
+        src={weddingPhoto}
         alt="Grand Ocean Ballroom"
         className="absolute inset-0 w-full h-full object-cover"
         loading="lazy"
@@ -184,8 +190,8 @@ const Index = () => {
           className="aspect-[4/3] rounded-lg overflow-hidden shadow-[var(--shadow-elevated)]"
         >
           <img
-            src="https://aquabluehotels.com/wp-content/uploads/IMG_3994-Edit.jpg"
-            alt="Narragansett coastline"
+            src={discoverHero}
+            alt="Aerial view of Narragansett coastline"
             className="w-full h-full object-cover"
             loading="lazy"
           />
